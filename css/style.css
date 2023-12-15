@@ -1,0 +1,283 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style: none;
+}
+
+input,button{
+    font-family: inherit;
+}
+
+/* header ====================================================================== */
+
+/* logo ------------------------------------- */
+.logo-vahid{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo-img{
+    width: 50px;
+}
+.logo-text{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+}
+/* menu desktop ------------------------------*/
+.head-url-menu {
+    /* width: 100%;
+    height: 75vh; */
+    min-height: 552px;
+    background: right url(../image/desktop_wifi_malls.jpg);
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.nav:hover{
+    background: #fff;
+    color: black;
+}
+.nav:hover .menu-desktop > ul > li > a{
+    color: black;
+    
+}
+.nav:hover .logo-text{
+    color: black;
+}
+.menu-desktop > ul{
+    display: flex;
+    margin-bottom: 0;
+}
+.menu-desktop > ul > li{
+    margin-left: 40px;
+    height: 100%;
+}
+.menu-desktop > ul{
+    align-items: center;
+}
+.menu-desktop > ul > li > a{
+    color: #fff;
+    border-bottom: 3px solid transparent;
+    transition: all .5s linear;
+    padding-bottom: 5px;
+    
+}
+.menu-desktop > ul > li > a:hover{
+    border-bottom: 3px solid #f1c40f;
+    
+}
+.menu-desktop > ul :nth-child(7){
+    border: 2px solid #fff;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+.menu-desktop > ul :nth-child(7):hover{
+    background: rgba(0, 0, 0, .2);
+}
+.nav:hover .menu-desktop ul :nth-child(7){
+    border: 2px solid black;
+    cursor: pointer;
+}
+.nav-link1:hover .dropdown1{
+   opacity: 1;
+   visibility: visible;
+}
+.dropdown1{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: 78px;
+    transition: all .4s ease;
+}
+.dropdown1 > ul{
+    background: #fff;
+    width: 200px;
+    padding: 10px;
+    line-height: 40px;
+}
+.dropdown1 > ul > li{
+    margin-left: 0;
+}
+.dropdown1 > ul > li > a{
+    color: #000;
+    border-bottom: 3px solid transparent;
+}
+.dropdown1 > ul > li > a:hover{
+    border-bottom: 3px solid #f1c40f;
+
+}
+.megamenu{
+    position: absolute;
+    top: 78px;
+    transition: all .4s linear;
+    width: 100%;
+    max-height: 560px;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    padding: 15px 150px;
+    z-index: 999;
+}
+.nav-link1:hover .megamenu{
+    opacity: 1;
+    visibility: visible;
+ }
+
+.megamenu > .cuntent > div > h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.megamenu > .cuntent > div > a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.megamenu > .cuntent > div > p{
+    font-size: 14px;
+    
+    color: #959595;
+}
+
+/* image header --------------------------------------------*/
+
+.min-title{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 165px;
+    color: #fff;
+    
+}
+.min-title > .btn-header{
+    background: #e8be18;
+    border-radius: 30px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+.min-title > .btn-header:hover{
+    background: #f9e182;
+}
+.min-title > h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.min-title > p{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.links{
+    color: #f1c40f;
+    position: absolute;
+    top: 90px;
+    left: 165px;
+}
+.links > a{
+    color: #fff;
+    font-size: 14px;
+}
+
+/* black menu --------------------------------------------------*/
+.black-menu{
+    background: #000;
+    color: #fff;
+}
+.dropdown2{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: 55px;
+    transition: all .4s ease;
+    background: #fff;
+}
+
+.black-menu-cuntent:hover .dropdown2{
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.dropdown2 > ul{
+   padding: 5px 0;
+}
+.dropdown2 > ul > li{
+    margin-bottom: 8px;
+}
+.dropdown2 > ul > li > a{
+    color: #000;
+     padding: 10px;
+    
+}
+.dropdown2 > ul > li:hover{
+    background: #ebebeb;
+    
+}
+
+.black-menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black-menu > ul {
+    display: flex;
+    margin-bottom: 0;
+    padding: 20px;
+}
+.black-menu > ul > li{
+    margin-right: 30px;
+    transition: all .5s linear;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+}
+.black-menu > ul > li > a{
+    color: #fff;
+    
+    
+}
+.black-menu > ul > li:hover{
+    border-bottom: 3px solid #e8be18;
+}
+.black-menu > span{
+    margin-right: 70px;
+}
+.black-menu > ul > :nth-child(3):hover,.black-menu-cuntent > a:hover{
+    color: #f1c40f;
+    border-bottom:3px solid #000;
+}
