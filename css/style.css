@@ -327,3 +327,33 @@ input,button{
     font-size: 65px;
     margin-left: 10px;
 } 
+
+/* free! ==========================================================================*/
+.free{
+    background: #000;
+    margin-top: 100px;
+    max-width: 1150px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 50px 90px;
+}
+.free > .text-free {
+    color: #fff;
+}
+.free > .text-free > h5{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.free > .butten-free{
+    background: #e8be18;
+    border: 2px solid #e8be18;
+    width: 150px;
+    padding: 13px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.free > .butten-free:hover{
+    background: #f9e182;
+}
